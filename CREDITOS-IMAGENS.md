@@ -22,7 +22,7 @@ Este arquivo documenta os ativos visuais locais usados na demonstração. As ima
 
 ## 4. Logo fornecida pelo cliente
 
-`public/images/optimized/agij-fert-logo.png` é uma cópia otimizada do arquivo fornecido pelo cliente em 21 de outubro de 2026. Não há licença externa a atribuir neste projeto. A logo deve ser tratada como marca da AGIJ FERT e não deve ser alterada, redesenhada ou apresentada como um ativo de terceiros.
+`public/images/optimized/agij-fert-logo.webp` é uma conversão WebP lossless, em alta resolução, do arquivo fornecido pelo cliente em 21 de outubro de 2026. Não há licença externa a atribuir neste projeto. A logo deve ser tratada como marca da AGIJ FERT e não deve ser alterada, redesenhada ou apresentada como um ativo de terceiros.
 
 ## Limitações da pesquisa
 

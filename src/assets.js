@@ -1,7 +1,7 @@
 export const imagePath = (fileName) => `${import.meta.env.BASE_URL}images/optimized/${fileName}`
 
 export const images = {
-  logo: imagePath('agij-fert-logo.png'),
+  logo: imagePath('agij-fert-logo.webp'),
   hero: imagePath('soja-brasnorte-1600.webp'),
   heroSrcSet: `${imagePath('soja-brasnorte-800.webp')} 800w, ${imagePath('soja-brasnorte-1600.webp')} 1600w`,
   harvest: imagePath('soja-rondonopolis-900.webp'),
