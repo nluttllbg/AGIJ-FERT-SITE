@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { images } from '../assets.js'
 
-export default function Header({ onContact }) {
+export default function Header({ whatsappUrl }) {
   const [menuOpen, setMenuOpen] = useState(false)
 
   const closeMenu = () => setMenuOpen(false)
@@ -25,7 +25,7 @@ export default function Header({ onContact }) {
         <a href="#atuacao" onClick={closeMenu}>Atuação</a>
         <a href="#metodo" onClick={closeMenu}>Método</a>
         <a href="#campo" onClick={closeMenu}>No campo</a>
-        <button className="nav-cta" type="button" onClick={() => { closeMenu(); onContact() }}>Falar com a AGIJ</button>
+        <a className="nav-cta" href={whatsappUrl} target="_blank" rel="noreferrer" onClick={closeMenu}>WhatsApp</a>
       </nav>
     </header>
   )

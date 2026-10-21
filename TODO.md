@@ -20,13 +20,15 @@
 - [x] A página inclui hover, foco visível, menu mobile no código, modal demonstrativo, validação, sucesso e falha simulável.
 - [x] A página respeita `prefers-reduced-motion`, evita overflow horizontal no viewport testado e preserva foco inicial no modal.
 - [x] A página declara a rota `/` em `public/manus-routes.json` e usa `base: './'` no build para subpastas.
+- [x] Refinar a direção para Liquid Glass contido: header e menu translúcidos, CTA final com profundidade sutil, menos bordas/divisórias e nenhuma decoração em diagrama.
+- [x] Manter o botão principal, header, CTA final e contato do rodapé ligados ao WhatsApp `(66) 99651-2455` com a mensagem fornecida.
 
 ## 3. Revisão e entrega
 
 - [x] Configurar diagnósticos do projeto antes da primeira implementação.
 - [x] Rodar build e checagens disponíveis; corrigir o erro de chave duplicada encontrado no primeiro manifesto.
 - [x] Capturar desktop e mobile e revisar recortes, carregamento, contraste visual e legibilidade das fotografias.
-- [x] Verificar modal, foco inicial, validação, sucesso e carregamento lazy das imagens.
+- [x] Verificar links de WhatsApp, carregamento lazy das imagens, âncoras, ausência de overflow e caminhos estáticos.
 - [x] Registrar testes realizados, problemas corrigidos e verificações pendentes em `docs/checklist-qualidade.md`.
 - [ ] Testar menu mobile diretamente em viewport interativo, ativar `prefers-reduced-motion` no navegador e validar contraste com ferramenta automatizada.
 - [ ] Salvar checkpoint com os arquivos intencionais no repositório canônico; não publicar sem autorização explícita.

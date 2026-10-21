@@ -3,6 +3,8 @@ import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import { images } from './assets.js'
 
+const whatsappUrl = 'https://wa.me/5566996512455?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20AGIJ%20FERT%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20consultoria%20para%20minha%20fazenda%20ou%20empresa.'
+
 const services = [
   { number: '01', title: '[PROVISÓRIO — serviço]', text: 'Leitura técnica do solo para orientar o que merece atenção antes da próxima decisão.' },
   { number: '02', title: '[PROVISÓRIO — serviço]', text: 'Acompanhamento de lavoura com olhar para desenvolvimento, equilíbrio e consistência.' },
@@ -99,9 +101,9 @@ export default function App() {
 
   return (
     <div className="app-shell">
-      <Header onContact={openModal} />
+      <Header whatsappUrl={whatsappUrl} />
       <main>
-        <Hero onContact={openModal} />
+        <Hero whatsappUrl={whatsappUrl} />
         <section className="intro-section shell section-pad" id="atuacao" aria-labelledby="intro-title">
           <div className="section-index">02 <span>/ 04</span></div>
           <div className="intro-grid">
@@ -136,9 +138,9 @@ export default function App() {
           <div className="principles-grid">{principles.map(([number, title, text]) => <article className="principle" key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div>
         </section>
 
-        <section className="cta-section shell section-pad"><div className="cta-panel"><div><p className="eyebrow light">[PROVISÓRIO] · Próximo passo</p><h2>Quer olhar para a próxima decisão com mais clareza?</h2></div><button className="button button-gold" type="button" onClick={openModal}>Solicitar conversa técnica <span aria-hidden="true">↗</span></button></div></section>
+        <section className="cta-section shell section-pad"><div className="cta-panel"><div><p className="eyebrow light">[PROVISÓRIO] · Próximo passo</p><h2>Quer olhar para a próxima decisão com mais clareza?</h2></div><a className="button button-gold" href={whatsappUrl} target="_blank" rel="noreferrer">Falar pelo WhatsApp <span aria-hidden="true">↗</span></a></div></section>
       </main>
-      <footer className="site-footer"><div className="shell footer-grid"><div><img className="footer-logo" src={images.logo} alt="AGIJ FERT" /><p className="footer-note">[PROVISÓRIO — inserir frase institucional aprovada]</p></div><div><p className="footer-label">Contato</p><p>[PROVISÓRIO — inserir WhatsApp]<br />[PROVISÓRIO — inserir e-mail]</p></div><div><p className="footer-label">Imagem</p><p>Fotografias documentais com créditos completos em <a href="/CREDITOS-IMAGENS.md">CREDITOS-IMAGENS.md</a>.</p></div></div><div className="shell footer-bottom"><span>© [PROVISÓRIO] AGIJ FERT</span><span>Site demonstrativo · substituir informações antes da publicação</span></div></footer>
+      <footer className="site-footer"><div className="shell footer-grid"><div><img className="footer-logo" src={images.logo} alt="AGIJ FERT" /><p className="footer-note">[PROVISÓRIO — inserir frase institucional aprovada]</p></div><div><p className="footer-label">Contato</p><p><a href={whatsappUrl} target="_blank" rel="noreferrer">(66) 99651-2455 · WhatsApp</a><br />[PROVISÓRIO — inserir e-mail]</p></div><div><p className="footer-label">Imagem</p><p>Fotografias documentais com créditos completos em <a href="/CREDITOS-IMAGENS.md">CREDITOS-IMAGENS.md</a>.</p></div></div><div className="shell footer-bottom"><span>© [PROVISÓRIO] AGIJ FERT</span><span>Site demonstrativo · substituir informações antes da publicação</span></div></footer>
       {modalOpen && <ContactModal onClose={closeModal} />}
     </div>
   )

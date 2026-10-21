@@ -6,8 +6,8 @@ A AGIJ FERT será apresentada como uma empresa de consultoria agronômica e fert
 
 - **Público:** produtores e equipes técnicas do agronegócio que precisam tomar decisões melhores sobre solo, lavoura e manejo.
 - **Objetivo:** explicar a atuação da AGIJ FERT com clareza, mostrar uma relação visual direta com o agro brasileiro e gerar um contato qualificado.
-- **Ação principal provisória:** solicitar uma conversa técnica.
-- **Direção visual:** campo brasileiro, solo, folhas, textura e leitura técnica; usar a logo fornecida como fonte de cor e identidade.
+- **Ação principal:** abrir o WhatsApp oficial com a mensagem: “Olá! Vim pelo site da AGIJ FERT e gostaria de saber mais sobre a consultoria para minha fazenda ou empresa.”
+- **Direção visual:** campo brasileiro, solo, folhas, textura e leitura técnica; usar a logo fornecida como fonte de cor e identidade, refinada para uma estética Liquid Glass contida.
 - **Restrições:** fotografias reais, não geradas por IA; nenhuma foto deve ser apresentada como pertencente à AGIJ FERT ou a seus clientes/equipe; não usar máquinas como foco principal; não comprar imagens nem contratar serviços; todas as origens, autores, licenças e localizações verificadas devem estar em `CREDITOS-IMAGENS.md`.
 
 ## Curadoria de imagens já verificada
@@ -25,7 +25,8 @@ A identidade usa verde profundo e dourado presentes na logo, com solo-terra e br
 - **Princípios:** evidência antes de promessa; proximidade com a lavoura; leitura técnica sem frieza; espaço para a fotografia respirar.
 - **Cores:** `#0B3D2E` como verde estrutural; `#D7A83D` como dourado de ação; `#8A4F2A` como terra auxiliar; `#F5F1E8` como fundo claro; `#17221C` como texto.
 - **Tipografia:** sans-serif de alta legibilidade para interface e serif discreta apenas em chamadas editoriais; metadados e créditos em mono/sans compacta.
-- **Assinaturas:** régua vertical verde, marcações de campo e mapas/linhas de plantio desenhados em SVG próprio; nunca sobrepor gráficos que distorçam as fotografias.
+- **Assinaturas:** cabeçalho flutuante translúcido, CTA final com profundidade sutil e fotografias amplas; não usar diagramas decorativos, linhas de conexão ou caixas repetidas.
+- **Liquid Glass:** reservar `backdrop-filter` para header, menu mobile e CTA final; usar superfícies translúcidas pontuais, contornos quase imperceptíveis, sombra leve e fallback opaco legível.
 - **Motion:** transições curtas para revelar conteúdo e navegação; sem parallax obrigatório; `prefers-reduced-motion` remove deslocamentos e mantém conteúdo visível.
 - **Logo:** usar o arquivo fornecido, com variações de fundo testadas no layout; não redesenhar símbolo, tipografia ou proporções.
 
