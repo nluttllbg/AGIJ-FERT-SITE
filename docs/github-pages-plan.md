@@ -6,13 +6,13 @@ A conta GitHub autenticada é `nluttllbg`. O repositório com correspondência e
 
 Há outros repositórios acessíveis com nomes semelhantes (`Agij`, `AGIJ-` e `AGIJ-FERT-teste`), mas não são o nome exato informado e não serão usados sem nova instrução.
 
-## Proposta ainda não executada
+## Execução realizada
 
-Após confirmação explícita, enviar o código-fonte atual para `nluttllbg/AGIJ-FERT-SITE` na branch `main`, usando um commit claro. Como o repositório está vazio, não há conteúdo pré-existente a substituir, mas o envio ainda será feito sem force push.
+Após confirmação explícita, o código-fonte foi enviado para `nluttllbg/AGIJ-FERT-SITE` na branch `main`, sem force push. O commit de publicação é `bfcfa8c59715983d6acf6ddc63f0c301371c36eb`.
 
-A publicação proposta é GitHub Pages via GitHub Actions: instalar dependências com `npm ci`, executar `npm run build`, publicar `dist/` com as actions oficiais de Pages e ajustar o `base` do Vite para o caminho real `/AGIJ-FERT-SITE/`. O `base: './'` atual mantém o preview e os assets relativos estáveis; para Pages, o ajuste para a subpasta real será aplicado somente após aprovação.
+A publicação foi concluída via GitHub Actions: instalar dependências com `npm ci`, executar `npm run build`, publicar `dist/` com as actions oficiais de Pages e usar o `base` condicional `/AGIJ-FERT-SITE/` no build do GitHub Actions. O workflow `Deploy AGIJ FERT to GitHub Pages` terminou com sucesso na execução `39670221600`.
 
-O workflow não será criado, nenhuma configuração do repositório será alterada, nenhum branch será criado e nenhum push será feito antes da confirmação do responsável.
+O workflow foi criado na branch `main`. Nenhum domínio personalizado foi criado. O site publicado está em [https://nluttllbg.github.io/AGIJ-FERT-SITE/](https://nluttllbg.github.io/AGIJ-FERT-SITE/).
 
 ## Alterações locais preparadas
 
@@ -20,6 +20,6 @@ As fotografias usadas foram redimensionadas para os tamanhos de uso, convertidas
 
 A tipografia foi unificada para uma família DM Sans com os pesos necessários, e o carregamento remoto foi movido para um stylesheet não bloqueante com fallback. Não há secrets ou tokens no código; `node_modules/` e `dist/` ficam fora do versionamento.
 
-## Confirmação necessária
+## Estado final
 
-Confirmar exatamente: enviar para `nluttllbg/AGIJ-FERT-SITE`, branch `main`, criar workflow de GitHub Pages, ajustar base para `/AGIJ-FERT-SITE/` e tornar o site publicamente acessível. Sem essa confirmação, o projeto permanece apenas no ambiente atual.
+Destino confirmado: `nluttllbg/AGIJ-FERT-SITE`, branch `main`, workflow de GitHub Pages ativo e site publicamente acessível. A configuração legada do Pages permanece registrada pela API, mas o workflow de Actions realizou o deploy e a URL pública foi verificada.

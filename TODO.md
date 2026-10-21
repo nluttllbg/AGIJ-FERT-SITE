@@ -34,4 +34,4 @@
 - [x] Registrar testes realizados, problemas corrigidos e verificações pendentes em `docs/checklist-qualidade.md`.
 - [ ] Testar menu mobile diretamente em viewport interativo, ativar `prefers-reduced-motion` no navegador e validar contraste com ferramenta automatizada.
 - [ ] Salvar checkpoint com os arquivos intencionais no repositório canônico; não publicar sem autorização explícita.
-- [ ] Após confirmação explícita, enviar para `nluttllbg/AGIJ-FERT`, branch `main`, criar workflow de GitHub Pages, ajustar o base para `/AGIJ-FERT-SITE/` e verificar a URL publicada.
+- [x] Após confirmação explícita, enviar para `nluttllbg/AGIJ-FERT-SITE`, branch `main`, criar workflow de GitHub Pages, ajustar o base para `/AGIJ-FERT-SITE/` e verificar a URL publicada.

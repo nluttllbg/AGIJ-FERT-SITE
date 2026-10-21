@@ -20,10 +20,10 @@
 - Contraste real com ferramenta automatizada.
 - Teste manual do menu mobile em viewport interativo real.
 - Teste de `prefers-reduced-motion` com a preferência do sistema efetivamente ativa.
-- Envio para GitHub, criação do workflow, ajuste do `base` para `/AGIJ-FERT-SITE/` e publicação no Pages dependem de confirmação explícita.
+- Envio para GitHub, criação do workflow, ajuste do `base` para `/AGIJ-FERT-SITE/` e publicação no Pages concluídos após confirmação explícita.
 - Confirmação do cliente sobre licenças e atribuições antes da publicação comercial.
 - Substituição de todos os textos, serviços, região, e-mail e frase institucional marcados como provisórios.
 
 ## Critérios de aceitação
 
-A entrega só deve ser considerada pronta para publicação depois de substituir todos os marcadores provisórios, confirmar contatos e serviços, revisar os créditos visíveis, obter aprovação da AGIJ FERT para fotografias e textos e concluir o deploy autorizado no GitHub Pages.
+A publicação técnica está concluída, mas a página ainda contém marcadores provisórios. Antes de comunicação comercial, substituir todos os textos provisórios, confirmar contatos e serviços, revisar os créditos visíveis e obter aprovação da AGIJ FERT para fotografias e textos.
