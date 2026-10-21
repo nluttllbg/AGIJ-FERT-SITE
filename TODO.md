@@ -22,6 +22,8 @@
 - [x] A página declara a rota `/` em `public/manus-routes.json` e usa `base: './'` no build para subpastas.
 - [x] Refinar a direção para Liquid Glass contido: header e menu translúcidos, CTA final com profundidade sutil, menos bordas/divisórias e nenhuma decoração em diagrama.
 - [x] Manter o botão principal, header, CTA final e contato do rodapé ligados ao WhatsApp `(66) 99651-2455` com a mensagem fornecida.
+- [x] Redimensionar fotografias, gerar variantes WebP, adicionar `srcset`/`sizes`, dimensões intrínsecas e lazy loading apenas fora da primeira dobra.
+- [x] Unificar a fonte em DM Sans, carregar o stylesheet sem bloquear a leitura e remover referências de ativos não utilizados da saída pública.
 
 ## 3. Revisão e entrega
 
@@ -32,3 +34,4 @@
 - [x] Registrar testes realizados, problemas corrigidos e verificações pendentes em `docs/checklist-qualidade.md`.
 - [ ] Testar menu mobile diretamente em viewport interativo, ativar `prefers-reduced-motion` no navegador e validar contraste com ferramenta automatizada.
 - [ ] Salvar checkpoint com os arquivos intencionais no repositório canônico; não publicar sem autorização explícita.
+- [ ] Após confirmação explícita, enviar para `nluttllbg/AGIJ-FERT`, branch `main`, criar workflow de GitHub Pages, ajustar o base para `/AGIJ-FERT-SITE/` e verificar a URL publicada.

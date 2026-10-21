@@ -1,6 +1,6 @@
 # Créditos e origem das imagens — AGIJ FERT
 
-Este arquivo documenta os ativos visuais locais usados na demonstração. As imagens foram baixadas de páginas do Wikimedia Commons que exibem os dados de autoria, descrição e licença. A presença de uma fotografia no site não indica que a área, propriedade, pessoas, equipamentos ou atividade pertençam à AGIJ FERT, sejam clientes da empresa ou representem sua equipe.
+Este arquivo documenta os ativos visuais locais usados na demonstração. As imagens foram baixadas de páginas do Wikimedia Commons que exibem os dados de autoria, descrição e licença. A presença de uma fotografia no site não indica que a área, propriedade, pessoas, equipamentos ou atividade pertençam à AGIJ FERT, sejam clientes da empresa ou representem sua equipe. Os arquivos publicados ficam em `public/images/optimized/`; os originais preservados para auditoria ficam em `docs/source-images/` e não entram na saída estática.
 
 ## 1. `public/images/optimized/soja-brasnorte.webp`
 
@@ -20,13 +20,7 @@ Este arquivo documenta os ativos visuais locais usados na demonstração. As ima
 
 **Atribuição curta para o site:** “Imagem: SentinelHub, dados Copernicus Sentinel — CC BY 2.0.”
 
-## 4. `public/images/optimized/brasil-sao-simao-aerea.webp`
-
-**Uso no site:** apoio visual de escala e paisagem agrícola brasileira. **O que representa:** imagem feita por integrante da tripulação da Expedition 16 na Estação Espacial Internacional sobre o reservatório de São Simão, na fronteira entre Goiás e Minas Gerais; a descrição informa áreas agrícolas com milho, soja e outras culturas na região. **Localização confirmada na fonte:** região do reservatório de São Simão, Brasil, próxima às coordenadas informadas na página. **Autoria:** NASA Goddard Space Flight Center / ISS. **Licença informada na página:** CC BY 2.0 e indicação de domínio público para material criado exclusivamente pela NASA nos termos descritos na própria página; a atribuição será mantida por prudência. **Fonte e política:** [Wikimedia Commons — Brazil (14214279557).jpg](https://commons.wikimedia.org/wiki/File:Brazil_(14214279557).jpg) e [NASA Image Use Policy](https://www.nasa.gov/audience/formedia/features/MP_Photo_Guidelines.html). **Alterações:** cópia local, redução de resolução e conversão para WebP; recorte responsivo apenas por CSS.
-
-**Atribuição curta para o site:** “Imagem: NASA Goddard Space Flight Center / ISS — CC BY 2.0; uso conforme política de imagens da NASA.”
-
-## 5. Logo fornecida pelo cliente
+## 4. Logo fornecida pelo cliente
 
 `public/images/optimized/agij-fert-logo.png` é uma cópia otimizada do arquivo fornecido pelo cliente em 21 de outubro de 2026. Não há licença externa a atribuir neste projeto. A logo deve ser tratada como marca da AGIJ FERT e não deve ser alterada, redesenhada ou apresentada como um ativo de terceiros.
 

@@ -17,10 +17,10 @@ const principles = [
   ['03', 'Acompanhamento que explica', 'Mais do que entregar uma resposta, a gente organiza o raciocínio por trás dela.'],
 ]
 
-function ImageFrame({ src, alt, label, caption, className = '' }) {
+function ImageFrame({ src, srcSet, sizes = '(max-width: 760px) 50vw, 45vw', width, height, alt, label, caption, className = '' }) {
   return (
     <figure className={`image-frame ${className}`}>
-      <img src={src} alt={alt} loading="lazy" decoding="async" />
+      <img src={src} srcSet={srcSet} sizes={sizes} width={width} height={height} alt={alt} loading="lazy" decoding="async" />
       <figcaption><span>{label}</span>{caption}</figcaption>
     </figure>
   )
@@ -129,7 +129,7 @@ export default function App() {
         <section className="field-section" id="campo" aria-labelledby="field-title">
           <div className="shell field-layout">
             <div className="field-copy"><p className="eyebrow light">04 / 04 · Referência visual</p><h2 id="field-title">A lavoura fala em camadas. <em>A gente ajuda a ler.</em></h2><p>[PROVISÓRIO — substituir] Fotografias documentais de áreas agrícolas brasileiras entram aqui para criar contexto — não para prometer o que ainda não foi confirmado.</p><a className="text-link light-link" href="#principios">Continuar a leitura <span aria-hidden="true">↓</span></a></div>
-            <div className="field-gallery"><ImageFrame src={images.harvest} alt="Lavoura de soja durante colheita em Rondonópolis, Mato Grosso" label="Rondonópolis · MT" caption="Foto documental, não vinculada à AGIJ FERT." /><ImageFrame src={images.satellite} alt="Imagem aérea de áreas agrícolas em Primavera do Leste, Mato Grosso" label="Primavera do Leste · MT" caption="Imagem territorial, não vinculada à AGIJ FERT." /></div>
+            <div className="field-gallery"><ImageFrame src={images.harvest} srcSet={images.harvestSrcSet} width="900" height="643" alt="Lavoura de soja durante colheita em Rondonópolis, Mato Grosso" label="Rondonópolis · MT" caption="Foto documental, não vinculada à AGIJ FERT." /><ImageFrame src={images.satellite} srcSet={images.satelliteSrcSet} width="900" height="434" alt="Imagem aérea de áreas agrícolas em Primavera do Leste, Mato Grosso" label="Primavera do Leste · MT" caption="Imagem territorial, não vinculada à AGIJ FERT." /></div>
           </div>
         </section>
 

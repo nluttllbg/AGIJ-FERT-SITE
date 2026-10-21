@@ -4,7 +4,7 @@ export default function Hero({ whatsappUrl }) {
   return (
     <section className="hero" id="inicio" aria-labelledby="hero-title">
       <div className="hero-media" aria-hidden="true">
-        <img src={images.hero} alt="" fetchPriority="high" decoding="async" />
+        <img src={images.hero} srcSet={images.heroSrcSet} sizes="100vw" width="1600" height="1065" alt="" fetchPriority="high" decoding="async" />
       </div>
       <div className="hero-shade" aria-hidden="true" />
       <div className="hero-content shell">

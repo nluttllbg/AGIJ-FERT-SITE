@@ -4,26 +4,26 @@
 
 - Pesquisa direta em fontes oficiais de design, acessibilidade, React, Motion e licenças Creative Commons.
 - Verificação da autoria, localização e licença de quatro imagens brasileiras; cópias locais baixadas e convertidas para WebP.
-- Registro da logo fornecida pelo cliente e upload da cópia otimizada para o metadado do projeto.
 - Diagnósticos de JavaScript, CSS e JSON registrados no WebDev antes da implementação.
-- `npm install` concluído sem vulnerabilidades reportadas e `npm run build` concluído com sucesso após o refinamento.
-- Preview reiniciado com as variáveis sincronizadas em `0.0.0.0:3000`.
-- `GET /` retornou 200, `GET /manus-routes.json` retornou JSON válido e os ativos PNG/WebP retornaram 200 com content-type correto.
-- Capturas desktop 1280×900 e mobile 390×844 realizadas; a versão nova foi comparada com a anterior.
-- Revisão visual confirmou menos bordas e divisórias, ausência de diagramas decorativos, uso pontual de vidro no header/CTA/menu e fotografias sem molduras fortes.
-- Quatro links de WhatsApp foram verificados no DOM com o número `5566996512455` e a mensagem codificada solicitada.
-- Console do navegador confirmou um único `h1`, ausência de overflow horizontal em 1280px e caminhos estáticos compatíveis com subpastas.
-- `prefers-reduced-motion` permanece implementado em CSS; hover, transições e scroll suave são reduzidos quando a preferência está ativa.
+- `npm install` concluído sem vulnerabilidades reportadas e `npm run build` concluído com sucesso.
+- Imagem hero com `fetchPriority="high"`, dimensões definidas e sem lazy loading; imagens de apoio com WebP responsivo, `srcset`, `sizes`, dimensões definidas e lazy loading.
+- Referências de ativos antigos e imagem não utilizada auditadas; nenhum segredo ou token encontrado no código público.
+- Preview respondeu 200; manifesto de rotas retornou JSON válido; variantes WebP retornaram 200 com content-type correto.
+- Capturas desktop 1280×900 e mobile 390×844 realizadas depois da otimização.
+- Console do navegador confirmou fonte DM Sans, um único `h1`, `loading="auto"` no hero, `loading="lazy"` nas imagens de apoio e ausência de overflow horizontal.
+- Quatro links de WhatsApp foram verificados com o número `5566996512455` e a mensagem exata em texto decodificado.
+- O repositório GitHub exato foi localizado e lido: `nluttllbg/AGIJ-FERT-SITE`, público e vazio.
 
 ## Verificações pendentes
 
-- Teste manual do menu mobile em viewport interativo real, além da captura mobile e da verificação do estado React.
-- Contraste real com ferramenta automatizada; a documentação WCAG é critério, não prova de teste executado.
+- Lighthouse não executado porque o comando não está instalado no ambiente; nenhuma pontuação foi declarada.
+- Contraste real com ferramenta automatizada.
+- Teste manual do menu mobile em viewport interativo real.
 - Teste de `prefers-reduced-motion` com a preferência do sistema efetivamente ativa.
-- Verificação de todos os caminhos em um domínio GitHub Pages real e subpasta real.
+- Envio para GitHub, criação do workflow, ajuste do `base` para `/AGIJ-FERT-SITE/` e publicação no Pages dependem de confirmação explícita.
 - Confirmação do cliente sobre licenças e atribuições antes da publicação comercial.
 - Substituição de todos os textos, serviços, região, e-mail e frase institucional marcados como provisórios.
 
 ## Critérios de aceitação
 
-A entrega só deve ser considerada pronta para publicação depois de substituir todos os marcadores provisórios, confirmar contatos e serviços, revisar os créditos visíveis e obter aprovação da AGIJ FERT para as fotografias e textos.
+A entrega só deve ser considerada pronta para publicação depois de substituir todos os marcadores provisórios, confirmar contatos e serviços, revisar os créditos visíveis, obter aprovação da AGIJ FERT para fotografias e textos e concluir o deploy autorizado no GitHub Pages.
